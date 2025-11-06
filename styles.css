@@ -1,1 +1,64 @@
 /*  your css code here. If applicable */
+:root {
+	background-color: rgb(135, 206, 235);
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Article Paragraphs */
+article p:first-child {
+	background-color: #000;
+	color: #fff;
+	padding: 4px 10px;
+}
+
+article p:nth-child(2) {
+	color: #15577d;
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
+
+article p:last-child {
+	color: #e05260;
+	margin-top: 0;
+}
+
+/* Unordered List Styles */
+ul {
+	padding-left: 40px;
+	margin-top: 22px;
+	width: 50%;
+}
+
+ul li {
+	background-color: #808891;
+	color: #fff;
+	padding: 10px;
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+
+/* Odd Items: white bg */
+ul li:nth-child(odd) {
+	background-color: #fff;
+	color: #333;
+}
+
+/* First and Last: 22px font */
+ul li:first-child,
+ul li:last-child {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/* Third item: pink bg */
+ul li:nth-child(3) {
+	background-color: #ffb4b7;
+	color: #4b3334;
+}
+
